@@ -12,15 +12,10 @@ nvimtree.setup({
 		update_cwd = true,
 	},
 	disable_netrw = true,
-	hijack_newrw = true,
 	open_on_setup = false,
 	auto_close = true,
 	open_on_tab = false,
 	update_cwd = true,
-	update_to_buf_dir = {
-		enable = true,
-		auto_open = true,
-	},
 	diagnostics = {
 		enable = true,
 	},
@@ -28,7 +23,6 @@ nvimtree.setup({
 		enable = true,
 		ignore = true,
 		timeout = 500,
-		root_folder_modifier = ":t",
 	},
 	actions = {
 		open_file = {
