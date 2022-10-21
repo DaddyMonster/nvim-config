@@ -13,7 +13,6 @@ nvimtree.setup({
 	},
 	disable_netrw = true,
 	open_on_setup = false,
-	auto_close = true,
 	open_on_tab = false,
 	update_cwd = true,
 	diagnostics = {
