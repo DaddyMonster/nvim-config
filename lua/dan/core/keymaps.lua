@@ -40,4 +40,3 @@ keymap.set("n", "<S-l>", "<cmd>BufferLineCycleNext<cr>")
 keymap.set("n", "<S-h>", "<cmd>BufferLineCyclePrev<cr>")
 keymap.set("n", "<S-c>", "<cmd>BufferLinePickClose<cr>")
 keymap.set("n", "<S-d>", "<cmd>Bdelete<cr>")
-
