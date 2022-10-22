@@ -30,4 +30,7 @@ nvimtree.setup({
 			},
 		},
 	},
+	view = {
+		adaptive_size = true,
+	},
 })

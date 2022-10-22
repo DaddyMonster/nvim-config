@@ -28,7 +28,8 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 	use("nvim-lua/plenary.nvim")
 	-- use("bluz71/vim-nightfly-guicolors")
-	use("savq/melange")
+	-- use("savq/melange")
+	use("Mofiqul/vscode.nvim")
 	use("christoomey/vim-tmux-navigator")
 	use("szw/vim-maximizer")
 	use("tpope/vim-surround")
@@ -81,7 +82,7 @@ return packer.startup(function(use)
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 	use("akinsho/bufferline.nvim")
 	use("famiu/bufdelete.nvim")
-
+	-- use("sunjon/shade.nvim")
 	if packer_bootstrap then
 		require("packer").sync()
 	end
