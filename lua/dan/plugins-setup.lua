@@ -83,6 +83,8 @@ return packer.startup(function(use)
 	use("akinsho/bufferline.nvim")
 	use("famiu/bufdelete.nvim")
 	-- use("sunjon/shade.nvim")
+	-- use("rmagatti/auto-session")
+	use("Shatur/neovim-session-manager")
 	if packer_bootstrap then
 		require("packer").sync()
 	end
