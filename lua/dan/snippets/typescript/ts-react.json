@@ -1,0 +1,46 @@
+{
+  "[JEBS_OFFICE]Next Js Page Component With Provider": {
+    "prefix": "offpro",
+    "body": [
+      "import React from 'react';",
+      "import { GetServerSideProps } from 'next';",
+      "import { PageConstant } from '@jebs-apps/react-view-office';",
+      "import { DashboardContent, JebsShadowCard } from '@jebs-apps/react/ui/component';",
+      "import { WithProvider } from '@jebs-apps/react/common/util';",
+      "\n",
+      "const ${1:${TM_FILENAME_BASE}} = WithProvider()(() => {",
+      "\t return (",
+      "\t\t<DashboardContent>",
+      "\t\t\t<DashboardContent.Head primary='' />",
+      "\t\t\t<JebsShadowCard flex='1 1 auto'></JebsShadowCard>",
+      "\t\t</DashboardContent>",
+      "\t );",
+      "});",
+      "const constants:PageConstant = { menuKeys: [] }",
+      "${1:${TM_FILENAME_BASE}}['constants'] = constants;",
+      "\n",
+      "export const getServerSideProps:GetServerSideProps = async (args) => {",
+      "\treturn {",
+      "\t\tprops : {}",
+      "\t}",
+      "}",
+      "\n",
+      "export default ${1:${TM_FILENAME_BASE}}"
+    ]
+  },
+  "[LMS_TEMP]": {
+    "prefix": "lms",
+    "body": [
+      "import { JebsLayout } from '@jebs-apps/react-view-jebs-app';",
+      "import React from 'react';",
+      "\n",
+      "export const ${1:${TM_FILENAME_BASE}} = () => {",
+      "\treturn <div></div>;",
+      "};",
+      "\n",
+      "${1:${TM_FILENAME_BASE}}.layout = JebsLayout.LMS;",
+      "\n",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ]
+  }
+}
